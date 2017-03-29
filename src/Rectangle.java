@@ -1,3 +1,4 @@
+/*Program to calculate area and perimeter of rectangle*/
 public class Rectangle {
   public int length;
   public int width;
