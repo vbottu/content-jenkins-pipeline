@@ -12,5 +12,10 @@ steps{
 sh 'java -jar rectangle.jar 4 5'
 }
 }
+post{
+success{
+archiveArtifacts artifacts: 'rectangle.jar', fingerprint:true
+}
+}
 }
 }
