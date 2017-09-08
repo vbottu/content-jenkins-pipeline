@@ -13,6 +13,10 @@ steps{
 sh 'java -jar rectangle.jar 4 5'
 }
 }
+ stage('Test'){
+  steps{
+   
+  }
 }
 post{
 success{
